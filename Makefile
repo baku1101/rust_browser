@@ -49,3 +49,7 @@ hexdump : build
 .PHONY : run
 run :
 	make -C ../../ run
+
+.PHONY : clean
+clean :
+	rm -rf ./build ./target
